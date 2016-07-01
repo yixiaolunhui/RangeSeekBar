@@ -1,7 +1,7 @@
-# 一个漂亮的范围拖动条
+# A nice range drag bar
   
 
-##效果图
+##Preview
 ![image](https://github.com/dalong982242260/RangeSeekBar/blob/master/gif/seekbar.gif?raw=true)  ![image](https://github.com/dalong982242260/RangeSeekBar/blob/master/gif/seekbar2.gif?raw=true)
 
 ##Attributes
@@ -30,3 +30,6 @@
                 android:layout_marginTop="50dp"
                 custom:tickCount="7" />
 
+##gradle
+
+        compile 'com.dalong:rangebar:1.0.0'
