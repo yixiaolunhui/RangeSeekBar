@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity{
         final Button thumbColorPressed = (Button) findViewById(R.id.thumbColorPressed);
         final Button resetThumbColors = (Button) findViewById(R.id.resetThumbColors);
         final Button refreshButton = (Button) findViewById(R.id.refresh);
+        final Button setImgToRangeBar = (Button) findViewById(R.id.setImgToRangeBar);
         final EditText leftIndexValue = (EditText) findViewById(R.id.leftIndexValue);
         final EditText rightIndexValue = (EditText) findViewById(R.id.rightIndexValue);
         rangebar = (RangeBar) findViewById(R.id.rangebar1);
@@ -261,13 +262,22 @@ public class MainActivity extends AppCompatActivity{
             }
         });
 
+        //设置图片
+        setImgToRangeBar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                rangebar.setThumbImageNormal(R.mipmap.ic_launcher);
+                rangebar.setThumbImagePressed(R.mipmap.ic_launcher);
+            }
+        });
+
+
         // 重置所有拖动条的颜色
         resetThumbColors.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
                 rangebar.setThumbColorNormal(-1);
                 rangebar.setThumbColorPressed(-1);
-
                 mThumbColorNormal = -1;
                 mThumbColorPressed = -1;
 
@@ -277,6 +287,8 @@ public class MainActivity extends AppCompatActivity{
                 thumbColorPressed.setTextColor(HOLO_BLUE);
             }
         });
+
+
 
     }
 

@@ -16,6 +16,7 @@
     <string name="confirmDefaultColor">Default</string>
     <string name="colorPickerTitle">Select a Color</string>
     <string name="resetThumbColors">Reset Thumb Colors</string>
+    <string name="setImgToRangeBar">set Thumb img</string>
     <string name="leftIndexValue">0</string>
     <string name="leftIndex">leftIndex</string>
     <string name="rightIndexValue">6</string>
