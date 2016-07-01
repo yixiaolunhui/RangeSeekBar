@@ -11,14 +11,14 @@
 | tickCount | integer |刻度的数量
 | tickHeight | dimension |刻度的高度
 | barWeight | dimension |刻度的宽度
-| barColor | reference|color |刻度的颜色
+| barColor | reference/color |刻度的颜色
 | connectingLineWeight | dimension |连接线的高度
-| connectingLineColor | reference|color |连接线的颜色
+| connectingLineColor | reference/color |连接线的颜色
 | thumbRadius | dimension |拖动块的半径
 | thumbImageNormal | reference |拖动块的自定义默认图片
 | thumbImagePressed | reference |拖动块的自定义按下拖动时图片
-| thumbColorNormal | reference|color |拖动块的自定义默认颜色
-| thumbColorPressed | reference|color |拖动块的自定义按下拖动时颜色
+| thumbColorNormal | reference/color |拖动块的自定义默认颜色
+| thumbColorPressed | reference/color |拖动块的自定义按下拖动时颜色
 
 ##use
        <com.dalong.rangeseekbar.RangeBar
